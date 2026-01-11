@@ -1,0 +1,53 @@
+انشاء مخزني محلي repository 
+git init 
+
+git add  اضافة الملف stagin 
+
+git status يعرض حالة الملفات في التغيير 
+
+git commit  اضافة تعليق عن سبب رفع الملف 
+
+git push   يرفع املف 
+
+git checkout -b  name_brach   انشاء برانش جديد و الانتقال له 
+
+git checkout name_brach  الانتقال بين البرنشات 
+
+
+
+git merge master  يمدج الملفات في البرنش الحالي الي البرنامج الماستر 
+
+git branch -M main  تغيير اسم البرنامج الي main  ليتوافق مع الموقع 
+
+git remote add origin https://github.com/meshal116/pppc.git  اضافة المخزن الي origin
+
+git push -u origin main  ارسال الملفات الي الموقع بعد تحويل الرابط الي المتغير origin 
+
+=========================== اوامر الموقع========================
+…or create a new repository on the command line
+echo "# pppc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/meshal116/pppc.git
+git push -u origin main
+
+git pull  origin  main سحب الملفات المحدثة من المخزن 
+
+echo  "">.gitignore انشاء ملف لوضع الملفات التي يتجاهل رفعه  نظيف فيه اسم الملفات 
+
+سحب المشروع الي الحاهز بكالمل git clone https://github.com/meshal116/pppc.git
+
+pip freeze > requirements.txt  ملف يكتب فيه جميع المكاتب 
+------------------------------------------------------------
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/meshal116/pppc.git
+git branch -M main
+git push -u origin main
+
+=================================
+لارافيل 
+اضافة مكاتب لارافيل composer install 
