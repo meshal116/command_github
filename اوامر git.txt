@@ -35,6 +35,7 @@ git push -u origin main
 
 git pull  origin  main سحب الملفات المحدثة من المخزن 
 
+
 echo  "">.gitignore انشاء ملف لوضع الملفات التي يتجاهل رفعه  نظيف فيه اسم الملفات 
 
 سحب المشروع الي الحاهز بكالمل git clone https://github.com/meshal116/pppc.git
@@ -50,4 +51,6 @@ git push -u origin main
 
 =================================
 لارافيل 
+
 اضافة مكاتب لارافيل composer install 
+php artisab cinfig:publish hashing  // انشاء ملف التشفير 
