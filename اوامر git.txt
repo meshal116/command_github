@@ -54,3 +54,4 @@ git push -u origin main
 
 اضافة مكاتب لارافيل composer install 
 php artisab cinfig:publish hashing  // انشاء ملف التشفير 
+php artisan make:model User -m  انشاء المايقراشن و الموديل
