@@ -12,4 +12,28 @@ git push -u origin main
 push an existing repository from the command line
 git remote add origin https://github.com/meshal116/laravel.git
 git branch -M main
+
 git push -u origin main
+
+=============================
+https://api.massive.com/v3/reference/tickers?market=stocks&active=true&order=asc&limit=100&sort=ticker&apiKey=RbSx0396pYguXv9ZBkh1ilS9J365fBBF
+
+C:\Users\nada_\.aws\config
+
+eb1f83fc-bb20-4c9d-acb5-014da1260eef
+
+aws s3 cp s3://flatfiles/us_stocks_sip/day_aggs_v1/2026/02/2026-02-02.csv.gz . --endpoint-url https://files.massive.com
+
+
+
+aws s3 cp s3://flatfiles/us_stocks_sip/trades_v1/2025/11/2025-11-05.csv.gz . --endpoint-url https://files.massive.com
+
+aws s3 cp s3://flatfiles/us_stocks_sip/minute_aggs_v1/2026/ . --recursive
+
+
+
+php artisan import:massive-minute storage/app/2026-02-23.csv --chunk=3000
+
+gzip -d 2026-02-23.csv.gz
+
+php artisan import:massive-minute storage/app/2026-02-23.csv --chunk=1000
