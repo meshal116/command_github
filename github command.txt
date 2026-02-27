@@ -37,3 +37,7 @@ php artisan import:massive-minute storage/app/2026-02-23.csv --chunk=3000
 gzip -d 2026-02-23.csv.gz
 
 php artisan import:massive-minute storage/app/2026-02-23.csv --chunk=1000
+
+
+php artisan queue:work
+
